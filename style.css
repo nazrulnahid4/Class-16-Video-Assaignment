@@ -1,0 +1,129 @@
+html{
+  scroll-behavior: smooth;
+}
+.header img{
+  width: 160px;
+  height: auto;
+}
+.header {
+  background: #0288D1;
+}
+.header ul{}
+.header ul li{
+  display: inline-block;
+  margin: 15px 0 0;
+}
+.header ul li a{
+  padding: 0 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* banner section */
+.banner{
+  background: url(img/banner.jpg) no-repeat top;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 200px;
+}
+.banner h2{
+  font-size: 30px;
+  padding: 10px 20px;
+  background-color: #999;
+  display: inline-block;
+  color: #fff;
+  border-radius: 5px;
+}
+.banner h1{
+  width: 500px;
+  font-size: 30px;
+  padding: 10px 20px;
+  background-color: #999;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  background-color: #0289d186;
+}
+
+
+/* about section */
+.about{
+  padding: 50px;
+}
+.about-con{
+  border: 1px solid #ddd;
+}
+.about-con h2{
+  font-size: 25px;
+}
+.about-content span i{
+  margin: 20px 0;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #0288D1;
+  border-radius: 20px 0;
+  color: #fff;
+  font-size: 25px;
+}
+
+/* notice Section */
+.notice-section{
+  margin-top: 50px;
+}
+.not-sin-con img{
+  float: left;
+  font-size: 180px;
+  width: 25%;
+  padding-right: 50px;
+}
+.not-sin-con p{
+  font-size: 15px;
+  padding-right: 30px;
+}
+.notice-right h3{
+  font-size: 25px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+.notice-right ul{
+  margin-left: -40px;
+  margin-top: 20px;
+}
+.notice-right ul li{
+  list-style: none;
+  padding: 10px 30px;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+/* Footer */
+.footer{
+  background-color: #555;
+}
+.footer-left{
+  padding: 15px;
+  font-size: 14px;
+  color: #999;
+}
+.footer-right{}
+.footer-right ul{
+}
+.footer-right ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 8px 8px 0;
+}
+.footer-right ul li a{
+  text-decoration: none;
+  color: #555;
+}
+.footer-right ul li a i{
+  font-size: 20px;
+  padding: 8px 8px;
+  border-radius: 50%;
+  border: 1px solid #555;
+  background-color: #999;
+}
